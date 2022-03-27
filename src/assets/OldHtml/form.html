@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang=""en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Tanner Syx">
+<meta name="description" content="This page will be the home page for bookmydealer">
+<title>Welcome to Bookmydealers</title>
+<link rel="icon" href="./img/chips.png"
+type="image/x-icon">
+<link rel="stylesheet" href="./CSS/main.css" type="text/css">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="./index.html">
+                <h2 class="logo">Bookmydealers</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="index.html" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./form.html" class="list-link">My Profile</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">My Events</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">My Availability</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Membership</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="about.html" class="list-link">About</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="#" class="list-link">Sign in</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="#" class="list-link">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+
+                <a href="#" class="list-link screen-sm-hidden">Sign up</a>
+                <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Sign in</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Fill out your information</h1>
+<form action="https://httpbin.org/get"
+method="get">
+<fieldset>
+
+
+
+    <legend>Personal Info</legend>
+
+    <p>
+    <label for="firstName">First Name:</label>
+    <input type="text" name="firstName"
+    id="firstName" placeholder="First Name"
+    required autofocus>
+    </p>
+
+    <p>
+    <label for="lastName">Last Name:</label>
+    <input type="text" name="lastName"
+    id="lastName" placeholder="last Name"
+    required>
+    </p>
+
+    <p>
+        <label for="address1">Address 1</label>
+        <input type="text" name="Address1"
+        id="Address1" placeholder="Address 1"
+        required>
+        </p>
+
+        <p>
+            <label for="address2">Address 2</label>
+            <input type="text" name="address2"
+            id="address2" placeholder="Address 2">
+            </p>
+
+            <p>
+                <label for="city">City</label>
+                <input type="text" name="city"
+                id="city" placeholder="city"
+                required>
+                </p>
+
+                <p>
+                    <label for="state">State</label>
+                    <input type="text" name="state"
+                    id="state" placeholder="state"
+                    required>
+                    </p>
+
+                    <p>
+                        <label for="zipCode/PostalCode">5 digit zip</label>
+                        <input type="tel" name="zipCode/PostalCode"
+                        id="zipCode/PostalCode" placeholder="Zip Code / Postal Code"
+                         required>
+                        </p>
+
+                        <p>
+                            <label for="country">Country</label>
+                            <input type="text" name="country"
+                            id="country" placeholder="country"
+                            required>
+                            </p>
+
+                            <p>
+                            <label for="phone">Phone Number</label>
+                             <input type="tel" name="phone"
+                            id="phone" placeholder="5555555555"
+                             pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                             required>
+
+                             <p>
+                                <label for="email">Email</label>
+                                <input type="email" name="email"
+                                id="email" placeholder="email"
+                                required>
+                                </p>
+
+                             <p>
+                             <label for="acceptTextMessages">Would you like to recieve text messages?></label>
+                             <select name="acceptTextMessages" id="acceptTextMessages">
+                                 <option value="yes">Yes</option>
+                                 <option value="no">No</option>
+                                 </select>
+                                </p>
+
+                                <p>
+                                <label for="acceptEmails">Would you like to recieve emails?></label>
+                                <select name="acceptEmails" id="acceptEmails">
+                                    <option value="yes" selected>Yes</option>
+                                    <option value="no">No</option>
+                                    </select>
+                                </p>
+
+                            <p>
+                                <label for="userName">User Name</label>
+                                <input type="text" name="userName"
+                                id="userName" placeholder="userName"
+                                required>
+                                </p>
+                            
+
+                        
+                            <p>
+                                <label for="iAmA">I am a:></label>
+                                <select name="iAmA" id="iAmA">
+                                    <option value="dealer for Events" selected>Dealer for Events</option>
+                                    <option value="dealer/EventHost">Dealer for Events and Event Host</option>
+                                    <option value="event Host">Event Host only</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </p>
+                        </fieldset>
+                        <br>
+
+                        <fieldset>
+                            <legend>Table Games</legend>
+
+                            <h2>Please select the Table games you are quilified to deal</h2>
+                            <p>
+                                <input type="checkbox" name="tableGames" id="blackJack" value="blackJack">
+                                <label for="blackjack">Blackjack</label>
+                            </p>
+
+                            <p>
+                                <input type="checkbox" name="tableGames" id="texasHoldEmPoker" value="texasHoldEmPoker">
+                                <label for="texasHoldEmPoker">Texas Hold 'Em Poker</label>
+                            </p>
+
+                            <p>
+                                <input type="checkbox" name="tableGames" id="paiGowPoker" value="paiGowPoker">
+                                <label for="paiGowPoker">Pai Gow Poker</label>
+                            </p>
+
+                            <p>
+                                <input type="checkbox" name="tableGames" id="craps" value="craps">
+                                <label for="craps">Craps</label>
+                            </p>
+
+                            <p>
+                                <input type="checkbox" name="tableGames" id="roulette" value="roulette">
+                                <label for="roulette">Roulette</label>
+                            </p>
+
+                            <p>
+                                <input type="checkbox" name="tableGames" id="casinoWar" value="casinoWar">
+                                <label for="casinoWar">Casino War</label>
+                            </p>
+
+                            <p>
+                                <input type="checkbox" name="tableGames" id="moneyWheel" value="moneyWheel">
+                                <label for="moneyWheel">Money Wheel</label>
+                            </p>
+
+                            <p>
+                                <input type="checkbox" name="tableGames" id="otherGames" value="otherGames">
+                                <label for="otherGames">Other Games</label>
+                            </p>
+
+                        </fieldset>
+                        <br>
+
+                        <fieldset>
+                            <!-- Field info set to connect with Event hosts here -->
+                            <!--Hopefully will be able to pick from a list of event hosts
+                            connect with a passphrase given by event hosts and generated on
+                            event host page. this will be an ability to connect with the company
+                            you already work for from the start. Not required but highly reccommended.
+                            if you are already working for an Event Host, this will get you connected,
+                            the reason it will not be initially requried is for people who do not have
+                            hosts they work with yet but allows users to create a profile anyway and 
+                            then hopefully be able to send resume or messages to event hosts in area 
+                            to get hired on as a contracted dealer.-->
+                            <!-- Field info set to connect with Event hosts here -->
+                        </fieldset>
+                        <fieldset>
+                            <legend>About Me</legend>
+                            <h2>Additional information about yourself</h2>
+                            <label for="aboutMeMessage">More info about your experience:</label>
+                            <br>
+                            <textarea name="aboutMeMessage" id="aboutMeMessage"
+                            cols="80" rows="10"
+                                placeholder="Optional: Add more information about yourself here"></textarea>                      </fieldset>
+                        </fieldset>
+
+                        <br>
+
+                        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Submit</button>
+                        <br>
+                        <br>
+                        <br>
+                        <button type="reset">Reset</button>
+</form>
+
+<footer class="footer section">
+
+    <div class="footer-container container d-grid">
+        
+        <div class="company-data">
+            <a href="./index.html">
+                <h2 class="logo">Bookmydealers</h2>
+            </a>
+            <p class="company-description">The all in one solution for booking dealers for your Casino events</p>
+            <p>
+                Brought to you by
+            </p>
+             <abbr title="Alliance Game Rentals">
+                 <a href="http://alliancegamerentals.com/" target="_blank">
+                     AGR</a> </abbr><br>
+    
+                     <p>
+                        <br>
+                        <a href="#TopOfPage"> Return to top of page</a>
+                    </p>
+
+            <span class="copyright-notice">&copy;2022 Bookmydealers. All rights reserved.</span>
+        </div>
+        <div>
+        <h6 class="title footer-title">Pages</h6>
+            <ul class="footer-list list">
+                <li class="list-item">
+                    <a href="./index.html" class="list-link current">Home</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-link">My Profile</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-link">My Events</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-link">My Availability</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-link">Membership</a>
+                </li>
+                <li class="list-item">
+                    <a href="about.html" class="list-link">About</a>
+                </li>
+                <li class="list-item screen-lg-hidden">
+                    <a href="#" class="list-link">Sign in</a>
+                </li>
+                <li class="list-item screen-lg-hidden">
+                    <a href="#" class="list-link">Sign up</a>
+                </li>
+            </ul>
+        </div>
+
+</footer>
+ <!-- Address and copyright info for webpage ownership-->
+
+</section>
+
+</body>
