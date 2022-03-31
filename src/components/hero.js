@@ -1,23 +1,11 @@
 import React from "react";
 
-import logo from "../assets/logo.svg";
+import poker from "../assets/poker.jpeg";
 
 const Hero = () => (
   <div className="text-center hero my-5">
-    <img className="mb-3 app-logo" src={logo} alt="logo"/>
-    <h1 className="mb-4">React.js Sample Project</h1>
-
-    <p className="lead">
-      This is a sample application that demonstrates an authentication flow for
-      an SPA, using{" "}
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://auth0.com/docs/quickstart/spa/react"
-      >
-        React.js
-      </a>
-    </p>
+    <img className="mb-3 app-logo" src={poker} alt="logo"/>
+    <h1 className="mb-4">BookMyDealers</h1>
   </div>
 );
 

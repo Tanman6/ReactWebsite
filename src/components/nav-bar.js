@@ -31,6 +31,30 @@ const MainNav = () => (
     >
       External API
     </Nav.Link>
+    <Nav.Link
+      as={RouterNavLink}
+      to="/my-availability"
+      exact
+      activeClassName="router-link-exact-active"
+    >
+      My Availability
+    </Nav.Link>
+    <Nav.Link
+      as={RouterNavLink}
+      to="/my-events"
+      exact
+      activeClassName="router-link-exact-active"
+    >
+      My Events
+    </Nav.Link>
+    <Nav.Link
+      as={RouterNavLink}
+      to="/about"
+      exact
+      activeClassName="router-link-exact-active"
+    >
+      About
+    </Nav.Link>
   </Nav>
 );
 
