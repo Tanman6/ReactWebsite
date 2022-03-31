@@ -6,7 +6,7 @@ import { NavBar, Footer, Loading} from "./components";
 import { Home, Profile, ExternalApi, About, MyAvailability, MyEvents } from "./views";
 import { useAuth0 } from "@auth0/auth0-react";
 
-import "./app.css";
+import "./main.css";
 
 const App = () => {
   const {isLoading} = useAuth0()

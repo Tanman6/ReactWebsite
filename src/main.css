@@ -82,6 +82,7 @@ body.light-theme{
     --transparent-light-color: rgba(0,0,0,.1);
 }
 text {
+    align-items: center;
     position: relative;
     width: 460px;
     height: 230px;
@@ -90,7 +91,12 @@ text {
 
 
 /* Reusable classes */
-.container{
+
+div.container{
+    --secondary-background-color: #4d0b17;
+}
+.container {
+    --secondary-background-color: #4d0b17;
     max-width: 160rem;
     margin: 0 auto;
     padding: 0 1.5rem;
@@ -124,14 +130,23 @@ text {
 }
 
 .navbar{
+    background-color: var(--secondary-background-color);
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-block: 1.5rem;
+    padding-block: 4rem;
+}
+ 
+
+.mb-3 app-logo{
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.logo{
-    max-width: 30%;
+{
+    background-color: var(--secondary-background-color);
 }
 
 
@@ -323,18 +338,27 @@ text {
 /* Footer */
 .footer{
     background-color: var(--secondary-background-color);
+    max-width: 100%;
+    align-items: center;
+}
+
+.a {
+    background-color: var(--secondary-background-color);
 }
 
 .footer-container{
+    background-color: var(--secondary-background-color);
     gap: var(--gap);
     display: left;
 }
 
 .copyright-notice{
+    background-color: var(--secondary-background-color);
     opacity: .8;
 }
 
 .footer-list{
+    background-color: var(--secondary-background-color);
     display: left;
     align-items: left;
     justify-content: space-between;
@@ -342,11 +366,15 @@ text {
 }
 
 .footer-title{
+    background-color: var(--secondary-background-color);
     font-size: var(--font-size-md);
     text-transform: uppercase;
     margin-bottom: var(--margin-sm);
     display: left
     
+}
+a.footer{
+    background-color: var(--secondary-background-color);
 }
 
 /* Scrollbar */
@@ -371,11 +399,12 @@ text {
 @media screen and (min-width: 700px) {
 
     .footer-container{
-        grid-template-columns: 1fr 2fr;
+        background-color: var(--secondary-background-color);
+
     }
 
     .company-data{
-        width: 400px;
+        background-color: var(--secondary-background-color)
     }
 
 }
@@ -421,7 +450,8 @@ text {
 
 
     .company-description{
-        max-width: 75%;
+       
+        align-items: right;
     }
 
     .copyright-notice{

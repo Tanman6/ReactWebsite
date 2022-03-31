@@ -3,7 +3,7 @@ import { NavLink as RouterNavLink } from "react-router-dom";
 import { Nav } from "react-bootstrap";
 
 const Footer = () => (
-  <footer className="bg-light p-3 text-center">
+  <footer className="footer">
     
     <Nav.Link
       as={RouterNavLink}
@@ -13,24 +13,18 @@ const Footer = () => (
     >
       BookMyDealers Home
     </Nav.Link>
-        <p class="company-description">The all in one solution for booking dealers for your Casino events</p>
-        <p>
+        <p className="footer">The all in one solution for booking dealers for your Casino events</p>
+        <p className="footer">
             Brought to you by
         </p>
-             <a href="https://Tanman6.github.io" target="_blank">
-                 Tanner Syx</a>
+             <a className="footer" href="https://Tanman6.github.io" target="_blank" rel="noopener noreferrer">Tanner Syx</a>
+                 <p className="footer"> and </p>
+                 <a className="footer" href="https://" target="_blank" rel="noopener noreferrer">Elijah Heath</a>
                  <br></br>
-                 <p>
-                  and
-                  </p>
-                 <a href="https://" target="_blank">Elijah Heath</a>
 
-                 <p>
-                    <br></br>
-                    <a href="#TopOfPage"> Return to top of page</a>
-                </p>
 
-        <span className="copyright-notice">&copy;2022 Bookmydealers. All rights reserved.</span>
+
+        <span className="footer">&copy;2022 Bookmydealers. All rights reserved.</span>
 
     
 

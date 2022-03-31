@@ -6,7 +6,7 @@ import LogoutButton from "./logout-button";
 import LoginButton from "./login-button";
 
 const MainNav = () => (
-  <Nav className="mr-auto">
+  <Nav className="navbar">
     <Nav.Link
       as={RouterNavLink}
       to="/"

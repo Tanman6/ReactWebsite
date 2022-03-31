@@ -33,3 +33,7 @@
 .result-block-container .result-block {
   opacity: 1;
 }
+
+img{
+  max-width: 100%;
+}
