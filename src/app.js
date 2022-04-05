@@ -3,6 +3,7 @@ import React from "react";
 import NewNav from "./components/NewNav";
 import Footer from "./components/footer";
 import Loading from "./components/Loading";
+import { Fragment } from "react";
 
 import { useAuth0 } from "@auth0/auth0-react";
 
@@ -16,10 +17,10 @@ const App = () => {
     return <Loading/>
   }
   return (
-    <div id="app" className="d-flex flex-column h-100">
+    <Fragment>
       <NewNav />
       <Footer />
-    </div>
+    </Fragment>
   );
 };
 
