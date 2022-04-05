@@ -20,6 +20,7 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
+    "react-styled-components": "^0.1.11",
     "react-syntax-highlighter": "^12.2.1",
     "yarn": "^1.22.18"
   },

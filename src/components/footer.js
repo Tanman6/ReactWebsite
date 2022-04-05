@@ -11,24 +11,15 @@ const Footer = () => (
       exact
       activeClassName="router-link-exact-active"
     >
-      BookMyDealers Home
+      BookMyDealers
     </Nav.Link>
         <p className="footer">The all in one solution for booking dealers for your Casino events</p>
-        <p className="footer">
-            Brought to you by
-        </p>
-             <a className="footer" href="https://Tanman6.github.io" target="_blank" rel="noopener noreferrer">Tanner Syx</a>
-                 <p className="footer"> and </p>
-                 <a className="footer" href="https://" target="_blank" rel="noopener noreferrer">Elijah Heath</a>
-                 <br></br>
-
-
-
-        <span className="footer">&copy;2022 Bookmydealers. All rights reserved.</span>
-
-    
-
-</footer>
+        <p className="footer">Brought to you by</p>
+        <p className="footer" href="https://Tanman6.github.io" target="_blank" rel="noopener noreferrer">Tanner Syx</p>
+        <p className="footer"> and </p>
+        <p className="footer" href="https://" target="_blank" rel="noopener noreferrer">Elijah Heath</p>
+        <p className="footer">&copy;2022 Bookmydealers. All rights reserved.</p>
+      </footer>
 );
 
 export default Footer;

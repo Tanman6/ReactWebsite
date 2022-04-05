@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Content } from "../components";
+import Content from "../components/content";
 
 const About = () => (
         <Fragment>

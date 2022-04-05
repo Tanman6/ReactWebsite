@@ -97,9 +97,9 @@ div.container{
 }
 .container {
     --secondary-background-color: #4d0b17;
-    max-width: 160rem;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0 1.5rem;
+
 }
 
 .place-items-center{
@@ -136,14 +136,14 @@ div.container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-block: 4rem;
+    
 }
 
 div.container {
     background-color: var(--secondary-background-color);
 }
 
-.mb-3 app-logo{
+.mb-3-app-logo{
     max-width: 100%;
     max-height: 100%;
 }
@@ -335,46 +335,12 @@ div.container {
 
 
 /* Footer */
-.footer{
+
+.app {
     background-color: var(--secondary-background-color);
-    max-width: 100%;
-    align-items: center;
+
 }
 
-.a {
-    background-color: var(--secondary-background-color);
-}
-
-.footer-container{
-    background-color: var(--secondary-background-color);
-    gap: var(--gap);
-    display: left;
-}
-
-.copyright-notice{
-    background-color: var(--secondary-background-color);
-    opacity: .8;
-}
-
-.footer-list{
-    background-color: var(--secondary-background-color);
-    display: left;
-    align-items: left;
-    justify-content: space-between;
-    padding-block: 1.5rem;
-}
-
-.footer-title{
-    background-color: var(--secondary-background-color);
-    font-size: var(--font-size-md);
-    text-transform: uppercase;
-    margin-bottom: var(--margin-sm);
-    display: left
-    
-}
-a.footer{
-    background-color: var(--secondary-background-color);
-}
 
 /* Scrollbar */
 ::-webkit-scrollbar {

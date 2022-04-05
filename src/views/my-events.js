@@ -6,4 +6,4 @@ const MyEvents = () => (
     </Fragment>
     );
 
-    export default MyEvents;
+ export default MyEvents;

@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col} from "react-bootstrap";
-import {Highlight} from '../components';
+import Highlight from "../components/highlight";
 import { useAuth0 } from "@auth0/auth0-react";
 
-export const Profile = () => {
+const Profile = () => {
   const { user } = useAuth0();
   return (
     <Container className="mb-5">
@@ -26,5 +26,4 @@ export const Profile = () => {
     </Container>
   );
 };
-
 export default Profile;

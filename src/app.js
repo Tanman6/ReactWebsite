@@ -1,10 +1,13 @@
 import React from "react";
 
-import { NewNav, Footer, Loading} from "./components";
+import NewNav from "./components/NewNav";
+import Footer from "./components/footer";
+import Loading from "./components/Loading";
 
 import { useAuth0 } from "@auth0/auth0-react";
 
 import "./main.css";
+
 
 const App = () => {
   const {isLoading} = useAuth0()
