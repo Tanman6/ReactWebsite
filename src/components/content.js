@@ -1,12 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 import contentData from "../utils/content-data";
 import { Col, Row } from "react-bootstrap";
 
 const Content = () => (
-  <div className="next-steps my-5">
-    <h2 className="my-5 text-center">Brought to you by Elijah Heath and Tanner Syx</h2>
-    <Row className="d-flex justify-content-between">
+  <Fragment className="next-steps-my-5">
+    <Row className="d-flex-justify-content-between1">Brought to you by Elijah Heath and Tanner Syx</Row>
+    <Row className="d-flex-justify-content-between">
       {contentData.map((col, i) => (
         <Col key={i} md={5} className="mb-4">
           <h6 className="mb-3">
@@ -18,7 +18,7 @@ const Content = () => (
         </Col>
       ))}
     </Row>
-  </div>
+  </Fragment>
 );
 
 export default Content;

@@ -7,7 +7,7 @@ const Profile = () => {
   const { user } = useAuth0();
   return (
     <Container className="mb-5">
-      <Row className="align-items-center profile-header mb-5 text-center text-md-left">
+      <Row className="center">
         <Col md={2}>
           <img
           src={user.picture}

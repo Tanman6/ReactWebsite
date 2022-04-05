@@ -38,6 +38,15 @@ html{
     font-size: 62.5%;
 }
 
+.d-flex-justify-content-between{
+    justify-content: right;
+}
+
+.d-flex-justify-content-between1{
+ justify-content: center;
+ font-size: large;
+}
+
 body{
     font-family: var(--font-family);
     font-size: var(--font-size-sm);
@@ -89,7 +98,6 @@ text {
     position:absolute
 }
 
-
 /* Reusable classes */
 
 div.container{
@@ -97,11 +105,14 @@ div.container{
 }
 .container {
     --secondary-background-color: #4d0b17;
-    max-width: 100%;
+    max-width: 300%;
     margin: 0 auto;
 
 }
 
+div.next-steps-my-5 {
+    --secondary-background-color: #4d0b17;
+}
 .place-items-center{
     display: inline-flex;
     align-items: center;
@@ -110,10 +121,6 @@ div.container{
 
 .section:not(.featured-articles){
     padding-block: 5rem;
-}
-
-.d-grid{
-    display: grid;
 }
 
 .screen-sm-hidden{
@@ -128,6 +135,8 @@ div.container{
     width: 100%;
     z-index: 999;
 }
+
+
 
 
 
