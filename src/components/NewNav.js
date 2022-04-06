@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import NavBar from './oldNavbar'
 import LoginButton from './LoginButton'
 import LogoutButton from './LogoutButton'
@@ -11,14 +11,12 @@ import ExternalApi from '../views/external-api'
 import MyAvailability from '../views/my-availability'
 import MyEvents from '../views/my-events'
 import About from '../views/about'
-import { NavbarContainer } from './NavbarElement'
 import PrivateRoute from './private-route'
 
  const NewNav = () => {
   return (
     <>
       <NavBar />
-      <NavbarContainer>
         <Switch>
           <Route path="/" exact component={Home} />
           <PrivateRoute path="/profile" component={Profile} />
@@ -27,7 +25,6 @@ import PrivateRoute from './private-route'
           <PrivateRoute path="/my-events" component={MyEvents} />
           <Route path="/about" component={About} />
         </Switch>
-      </NavbarContainer>
     </>
   )
 }

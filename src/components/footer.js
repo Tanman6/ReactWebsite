@@ -1,18 +1,10 @@
 import React from "react";
-import { NavLink as RouterNavLink } from "react-router-dom";
-import { Nav } from "react-bootstrap";
+
 
 const Footer = () => (
   <footer className="footer">
     
-    <Nav.Link
-      as={RouterNavLink}
-      to="/"
-      exact
-      activeClassName="router-link-exact-active"
-    >
-      BookMyDealers
-    </Nav.Link>
+        <p className="footer">Bookmydealers</p>
         <p className="footer">The all in one solution for booking dealers for your Casino events</p>
         <p className="footer">Brought to you by</p>
         <p className="footer" href="https://Tanman6.github.io" target="_blank" rel="noopener noreferrer">Tanner Syx</p>
