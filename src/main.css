@@ -146,13 +146,14 @@ text {
     justify-content: center;
     
 } 
-.bg-light {
-    background-color: var(--secondary-background-color);
+
+.nav-link:focus, .nav-link:hover{
+    text-decoration: underline;
 }
 
- div.container {
-    background-color: var(--secondary-background-color);
-} 
+.router-link-exact-active{
+    background-image: linear-gradient(to right, rgb(216, 216, 234),#b7a2a6,rgb(216, 216, 234));
+}
 
 .mb-3-app-logo{
     max-width: 100%;
@@ -189,6 +190,8 @@ text {
 .close-menu-icon{
     display: none;
 }
+
+
 
 .btn{
     cursor: pointer;
@@ -310,9 +313,17 @@ text {
     font-size: var(--font-size-xsm);
 }
 
+.btn-margin{
+    background: red;
+    width: 15rem;
+    padding: .5rem;
+}
+
 .fancy-border{
     position: relative;
     overflow: hidden;
+    width: 15rem;
+    padding: .5rem;
 }
 
 .fancy-border::before{
@@ -322,17 +333,17 @@ text {
     left: 0;
     width: 200%;
     height: 100%;
-    background: var(--gradient-color);
+    background-image: linear-gradient(to right, rgb(4, 4, 30),#4d0b17,rgb(4, 4, 30));
     background-size: 50% 100%;
     z-index: 5;
 }
 
-.fancy-border span{
+.fancy-border div{
     position: relative;
     z-index: 10;
     display: inline-flex;
-    background-color: var(--secondary-background-color);
-    padding: .6rem 1.5rem;
+    background-color: var(--gradient-color);
+    padding: .5rem ;
 }
 
 
