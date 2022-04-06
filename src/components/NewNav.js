@@ -1,8 +1,7 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import NavBar from './oldNavbar'
-import LoginButton from './LoginButton'
-import LogoutButton from './LogoutButton'
-import { Container, Switch } from 'react-bootstrap'
+
+import {  Switch } from 'react-bootstrap'
 import { Route } from 'react-router-dom'
 //import { Home, Profile, ExternalApi, MyAvailability, MyEvents, About } from './views'
 import Home from '../views/home'
