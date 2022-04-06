@@ -12,6 +12,7 @@ import MyAvailability from '../views/my-availability'
 import MyEvents from '../views/my-events'
 import About from '../views/about'
 import { NavbarContainer } from './NavbarElement'
+import PrivateRoute from './private-route'
 
  const NewNav = () => {
   return (
@@ -20,10 +21,10 @@ import { NavbarContainer } from './NavbarElement'
       <NavbarContainer>
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/profile" component={Profile} />
-          <Route path="/external-api" component={ExternalApi} />
-          <Route path="/my-availability" component={MyAvailability} />
-          <Route path="/my-events" component={MyEvents} />
+          <PrivateRoute path="/profile" component={Profile} />
+          <PrivateRoute path="/external-api" component={ExternalApi} />
+          <PrivateRoute path="/my-availability" component={MyAvailability} />
+          <PrivateRoute path="/my-events" component={MyEvents} />
           <Route path="/about" component={About} />
         </Switch>
       </NavbarContainer>

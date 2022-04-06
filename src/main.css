@@ -37,15 +37,17 @@
 html{
     font-size: 62.5%;
 }
+/* About.js / content.js css below **** */
 
 .d-flex-justify-content-between{
     justify-content: right;
 }
 
 .d-flex-justify-content-between1{
- justify-content: center;
- font-size: large;
+ justify-content: right;
+ font-size:250%;
 }
+
 
 body{
     font-family: var(--font-family);

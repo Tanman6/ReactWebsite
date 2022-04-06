@@ -21,7 +21,7 @@ const contentData = [
     title: "Tanner Syx's Portfolio",
     link: "Tanman6.github.io",
     description:
-      "Tanner Syx is an Alabama native Software Engineer. His passion for learning software development started at a young age and continues to grow. Reach out if you enjoy this site or are looking for a new developer to Work for you!",
+      "Tanner Syx is an Alabama native Software Engineer. His passion for learning software development started at a young age and continues to grow. Reach out if you enjoy this site or are looking for a new developer.",
   },
 ];
 

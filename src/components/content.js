@@ -5,7 +5,12 @@ import { Col, Row } from "react-bootstrap";
 
 const Content = () => (
   <Fragment className="next-steps-my-5">
+    <br></br>
     <Row className="d-flex-justify-content-between1">Brought to you by Elijah Heath and Tanner Syx</Row>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
     <Row className="d-flex-justify-content-between">
       {contentData.map((col, i) => (
         <Col key={i} md={5} className="mb-4">
